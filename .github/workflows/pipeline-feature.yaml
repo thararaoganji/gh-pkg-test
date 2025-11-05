@@ -3,7 +3,10 @@ name: Pipeline - Feature/Bugfix Branch
 on:
   push:
     branches:
-      - main
+      - feature/**
+      - bugfix/**
+      - feat/**
+      - fix/**
     paths:
       - .github/**
       - src/**
