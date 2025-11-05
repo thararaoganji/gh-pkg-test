@@ -2,7 +2,7 @@
   "pull-request-title-pattern": "Release v${version}",
   "release-type": "simple",
   "extra-files": [
-    "./build.gradle"
+    "build.gradle"
   ],
   "changelog-sections": [
     {

@@ -5,7 +5,7 @@
   "prerelease-type": "rc1",
   "versioning": "prerelease",
   "extra-files": [
-    "./build.gradle"
+    "build.gradle"
   ],
   "changelog-sections": [
     {
