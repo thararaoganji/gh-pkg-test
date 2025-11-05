@@ -5,8 +5,10 @@ on:
     branches:
       - main
     paths-ignore:
-      - .release-please-manifest.json
-      - CHANGELOG.md
+      - 'CHANGELOG.md'
+      - '.release-please-manifest.json'
+      - '.prerelease-please-manifest.json'
+      - 'build.gradle'
 
 jobs:
   release-please:
