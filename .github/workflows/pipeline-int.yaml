@@ -1,13 +1,9 @@
-name: Pipeline - Feature/Bugfix Branch
+name: Pipeline - Pre-release
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/**
-      - src/**
-      - build.gradle
+  release:
+    types:
+      - prereleased
 
 permissions:
   contents: read
@@ -20,5 +16,5 @@ jobs:
       environment: dev
       java-version: "17"
       working-directory: .
-      publish-to-gh: false
+      publish-to-gh: true
     secrets: inherit
