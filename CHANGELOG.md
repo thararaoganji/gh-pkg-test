@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0-rc2](https://github.com/thararaoganji/gh-pkg-test/compare/v0.1.0-rc1...v0.1.0-rc2) (2025-11-05)
+
+
+### Features
+
+* updated pipelines ([3dbc032](https://github.com/thararaoganji/gh-pkg-test/commit/3dbc032573136878c14a82e1c12d9352e167e63a))
+
 ## [0.1.0](https://github.com/thararaoganji/gh-pkg-test/compare/v0.0.1...v0.1.0) (2025-11-05)
 
 
