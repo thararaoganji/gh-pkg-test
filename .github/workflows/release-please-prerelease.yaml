@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - 'CHANGELOG.md'
       - '.release-please-manifest.json'
-      - '.prerelease-please-manifest.json'
+      #- '.prerelease-please-manifest.json'
       - 'build.gradle'
 
 jobs:
