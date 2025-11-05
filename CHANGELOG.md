@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0-rc3](https://github.com/thararaoganji/gh-pkg-test/compare/v0.1.0-rc2...v0.1.0-rc3) (2025-11-05)
+
+
+### Features
+
+* update prerelease workflow ([49c0069](https://github.com/thararaoganji/gh-pkg-test/commit/49c00697971bce208a5e96f9206115d2957c79a9))
+
 ## [0.2.0](https://github.com/thararaoganji/gh-pkg-test/compare/v0.1.0...v0.2.0) (2025-11-05)
 
 
