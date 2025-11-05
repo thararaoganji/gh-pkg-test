@@ -1,0 +1,24 @@
+name: Pipeline - Feature/Bugfix Branch
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/**
+      - src/**
+      - build.gradle
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  backendCI:
+    uses: thararaoganji/workflowtest/.github/workflows/ci-java.yaml@main
+    with:
+      environment: dev
+      java-version: "17"
+      working-directory: .
+      publish-to-gh: false
+    secrets: inherit
